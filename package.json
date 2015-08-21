@@ -1,18 +1,18 @@
 {
-  "name": "compression-webpack-plugin",
+  "name": "addbom-webpack-plugin",
   "version": "0.2.0",
-  "author": "Tobias Koppers @sokra",
-  "description": "Prepare compressed versions of assets to serve them with Content-Encoding",
+  "author": "Odd Networks @oddnetworks",
+  "description": "Adds a Byte-Order-Mark to files",
   "peerDependencies": {
     "webpack": ">=0.11 <2"
   },
   "dependencies": {
     "async": "0.2.x"
   },
-  "homepage": "http://github.com/webpack/compression-webpack-plugin",
+  "homepage": "http://github.com/oddnetworks/addbom-webpack-plugin",
   "repository": {
     "type": "git",
-    "url": "http://github.com/webpack/compression-webpack-plugin.git"
+    "url": "http://github.com/oddnetworks/addbom-webpack-plugin.git"
   },
   "licenses": [
     {
