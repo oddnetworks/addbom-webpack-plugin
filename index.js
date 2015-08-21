@@ -20,8 +20,9 @@ AddBomPlugin.prototype.apply = function (compiler) {
 				if (!Buffer.isBuffer(content)) {
 					content = new Buffer(content, 'utf-8');
 				}
-				var contents = Buffer.concat([BOM, file.contents]);
+				var contents = Buffer.concat([BOM, content]);
 				assets[file] = new RawSource(contents);
+				callback();
 			}.bind(this), callback);
 		}.bind(this));
 	}.bind(this));
